@@ -1,0 +1,47 @@
+from selenium import webdriver
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+import pandas as pd
+
+url = r"http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+
+driver = webdriver.Firefox(executable_path=r"C:\Users\tadeu\Desktop\FGV\GV DATA\python\scrape\devries\scrapeProDeVries\geckodriver.exe")
+driver.get(url)
+
+while True:
+    for ano in range(2002,2016):
+        for municipio in range(1,645):
+            anos = Select(driver.find_element_by_id("conteudo_ddlAnos"))
+            anos.select_by_value(str(ano))
+
+            regioes = Select(driver.find_element_by_id("conteudo_ddlRegioes"))
+            regioes.select_by_value("0")
+
+            municipios = Select(driver.find_element_by_id("conteudo_ddlMunicipios"))
+            municipios.select_by_value(str(municipio))
+
+            #WebDriverWait(driver, 10).until(
+            #    EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'OCORRÊNCIAS DE PORTE DE ENTORPECENTES')]"))
+            #)
+
+            html = driver.page_source
+            soup = BeautifulSoup(html,"lxml")
+            table = soup.find("tbody").findAll("tr")[1:]
+
+            nome_municipio = soup.find("select", {"id": "conteudo_ddlMunicipios"}).find("option", {"selected": "selected"}).text
+            df = pd.DataFrame([{"MUNICIPIO": nome_municipio}])
+
+            for tr in table:
+                elements = tr.findAll("td")
+                x = {elements[0].text: int(elements[-1].text)}
+                foo = pd.DataFrame([x], columns=x.keys())
+
+                df = pd.concat([df.reset_index(drop=True), foo], axis=1)
+
+            if municipio == 1:
+                df.to_csv(r'csvs/{}.csv'.format(str(ano)), mode='a', header=True)
+            else:
+                df.to_csv(r'csvs/{}.csv'.format(str(ano)), mode='a', header=False)

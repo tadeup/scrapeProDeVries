@@ -1,0 +1,299 @@
+1521655907589	geckodriver	INFO	geckodriver 0.18.0
+1521655907684	geckodriver	INFO	Listening on 127.0.0.1:53275
+1521655909847	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521655910460	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13376, ChrUnable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521655911710	Marionette	INFO	Listening on port 53284
+1521655912014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521655912073	Marionette	DEBUG	Register listener.js for window 4294967297
+1521655912093	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521655912637	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521655912638	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521655913270	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655913911	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1521655914375	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655914481	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655915364	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655915364	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655915549	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1521655915550	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1521655915550	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1521655915550	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1521655915550	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1521655915550	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1521655915551	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1521655915711	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655916211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1521655916584	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655916673	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655917064	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655917064	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655917239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655917475	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967320"
+1521655917475	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
+1521655917475	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967330"
+1521655917476	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967323"
+1521655917476	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1521655917476	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1521655917476	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1521655917481	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967341"
+1521655917791	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+[Parent 9432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521655928435	geckodriver	INFO	geckodriver 0.18.0
+1521655928450	geckodriver	INFO	Listening on 127.0.0.1:53364
+1521655930514	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521655931081	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15080,Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521655932661	Marionette	INFO	Listening on port 53374
+1521655933684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521655933743	Marionette	DEBUG	Register listener.js for window 4294967297
+1521655933759	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521655934257	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521655934257	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521655934763	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655935471	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1521655935927	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655936012	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655936819	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655936820	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655936999	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1521655936999	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1521655936999	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1521655937000	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1521655937000	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1521655937000	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1521655937000	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1521655937108	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655937468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1521655937850	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655937937	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655938421	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655938421	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655938659	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521655938666	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967320"
+1521655938667	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
+1521655938668	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967330"
+1521655938668	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967323"
+1521655938669	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1521655938672	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1521655938673	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1521655938859	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967341"
+1521655939398	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656026785	geckodriver	INFO	geckodriver 0.18.0
+1521656026785	geckodriver	INFO	Listening on 127.0.0.1:53573
+1521656028878	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521656029415	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521656030731	Marionette	INFO	Listening on port 53581
+1521656030915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521656030984	Marionette	DEBUG	Register listener.js for window 4294967297
+1521656031008	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521656031506	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521656031507	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521656032149	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656032729	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1521656033153	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656033260	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656034091	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656034091	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656034293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1521656034293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1521656034293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1521656034293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1521656034294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1521656034294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1521656034294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1521656034380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656034729	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1521656035187	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656035279	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656035688	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656035688	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656035897	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656035904	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967320"
+1521656035905	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
+1521656035905	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967330"
+1521656035906	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967323"
+1521656035906	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1521656035906	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1521656035907	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1521656036142	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967341"
+1521656036506	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+[Parent 6000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 852, Chrome_ChildThread] WARNING: pipe err*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521656053371	geckodriver	INFO	geckodriver 0.18.0
+1521656053386	geckodriver	INFO	Listening on 127.0.0.1:53671
+1521656055439	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521656056984	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tadeu\AppData\Local\openvr\openvrpaths.vrpath
+1521656058416	Marionette	INFO	Listening on port 53679
+1521656058678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521656058750	Marionette	DEBUG	Register listener.js for window 4294967297
+1521656058771	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521656059429	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521656059430	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521656060108	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656060659	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1521656061179	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656061261	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656062048	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656062049	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656062378	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1521656062379	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1521656062379	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1521656062379	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1521656062379	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1521656062380	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1521656062380	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1521656062399	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656062870	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1521656063105	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656063189	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656063584	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656063584	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656063824	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656063832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967320"
+1521656063834	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
+1521656063835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967330"
+1521656063836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967323"
+1521656063836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1521656063836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1521656063836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1521656064040	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967341"
+1521656064364	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656064495	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656064840	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656064840	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656065034	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967339"
+1521656065035	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1521656065035	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967349"
+1521656065035	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967342"
+1521656065035	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967343"
+1521656065035	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1521656065036	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967353"
+1521656065136	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656065568	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967360"
+1521656065927	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656065994	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656066386	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656066386	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656066644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656066905	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967358"
+1521656066906	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967359"
+1521656066907	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967368"
+1521656066907	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967361"
+1521656066907	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967362"
+1521656066908	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967369"
+1521656066908	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967372"
+1521656066930	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967379"
+1521656067274	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656067493	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656067898	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656067899	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656068220	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656068250	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967377"
+1521656068250	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967378"
+1521656068251	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967387"
+1521656068251	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967380"
+1521656068252	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967381"
+1521656068252	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967389"
+1521656068252	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967391"
+1521656068649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967398"
+1521656069063	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656069199	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656069588	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656069589	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656069777	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656069964	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
+1521656069964	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967397"
+1521656069965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967406"
+1521656069965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967399"
+1521656069965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967400"
+1521656069965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967408"
+1521656069966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967410"
+1521656069972	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967417"
+1521656070290	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656070430	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656070797	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656070797	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656071057	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967415"
+1521656071057	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967416"
+1521656071058	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967425"
+1521656071071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967418"
+1521656071071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967419"
+1521656071072	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967426"
+1521656071072	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967429"
+1521656071081	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656071668	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967436"
+1521656072047	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656072148	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656072540	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656072540	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656072766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656073031	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967434"
+1521656073031	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967435"
+1521656073031	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967444"
+1521656073031	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967437"
+1521656073031	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967438"
+1521656073032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967445"
+1521656073032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967448"
+1521656073037	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967455"
+1521656073434	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656073583	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656073897	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656073897	Marionette	DEBUG	Received DOM event "unload" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656074219	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.ssp.sp.gov.br/Estatistica/Pesquisa.aspx/"
+1521656074247	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967453"
+1521656074247	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967454"
+1521656074247	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1521656074248	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967456"
+1521656074248	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967457"
+1521656074248	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967465"
+1521656074249	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967467"
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 223: TypeError: this._mm is null
+1521656074833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967474"
+1521656074834	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967472"
+1521656074835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967473"
+1521656074835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967482"
+1521656074835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967475"
+1521656074835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967476"
+1521656074837	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
+[Child 17812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17812, Chrome_ChildThrea*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
