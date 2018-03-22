@@ -12,36 +12,53 @@ driver = webdriver.Firefox(executable_path=r"C:\Users\tadeu\Desktop\FGV\GV DATA\
 driver.get(url)
 
 while True:
-    for ano in range(2002,2016):
+    iteracao = 0
+    for ano in range(2016,2018):
         for municipio in range(1,645):
-            anos = Select(driver.find_element_by_id("conteudo_ddlAnos"))
-            anos.select_by_value(str(ano))
+            tentativas = 5
+            while tentativas > 0:
+                try:
+                    if iteracao == 50:
+                        driver.quit()
+                        driver = webdriver.Firefox(executable_path=r"C:\Users\tadeu\Desktop\FGV\GV DATA\python\scrape\devries\scrapeProDeVries\geckodriver.exe")
+                        driver.get(url)
+                        iteracao = 0
+                    else:
+                        iteracao += 1
 
-            regioes = Select(driver.find_element_by_id("conteudo_ddlRegioes"))
-            regioes.select_by_value("0")
+                    anos = Select(driver.find_element_by_id("conteudo_ddlAnos"))
+                    anos.select_by_value(str(ano))
 
-            municipios = Select(driver.find_element_by_id("conteudo_ddlMunicipios"))
-            municipios.select_by_value(str(municipio))
+                    regioes = Select(driver.find_element_by_id("conteudo_ddlRegioes"))
+                    regioes.select_by_value("0")
 
-            #WebDriverWait(driver, 10).until(
-            #    EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'OCORRÊNCIAS DE PORTE DE ENTORPECENTES')]"))
-            #)
+                    municipios = Select(driver.find_element_by_id("conteudo_ddlMunicipios"))
+                    municipios.select_by_value(str(municipio))
 
-            html = driver.page_source
-            soup = BeautifulSoup(html,"lxml")
-            table = soup.find("tbody").findAll("tr")[1:]
+                    #WebDriverWait(driver, 10).until(
+                    #    EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'OCORRÊNCIAS DE PORTE DE ENTORPECENTES')]"))
+                    #)
 
-            nome_municipio = soup.find("select", {"id": "conteudo_ddlMunicipios"}).find("option", {"selected": "selected"}).text
-            df = pd.DataFrame([{"MUNICIPIO": nome_municipio}])
+                    html = driver.page_source
+                    soup = BeautifulSoup(html,"lxml")
+                    table = soup.find("tbody").findAll("tr")[1:]
 
-            for tr in table:
-                elements = tr.findAll("td")
-                x = {elements[0].text: int(elements[-1].text)}
-                foo = pd.DataFrame([x], columns=x.keys())
+                    nome_municipio = soup.find("select", {"id": "conteudo_ddlMunicipios"}).find("option", {"selected": "selected"}).text
+                    df = pd.DataFrame([{"MUNICIPIO": nome_municipio}])
 
-                df = pd.concat([df.reset_index(drop=True), foo], axis=1)
+                    for tr in table:
+                        elements = tr.findAll("td")
+                        x = {elements[0].text: elements[-1].text}
+                        foo = pd.DataFrame([x], columns=x.keys())
 
-            if municipio == 1:
-                df.to_csv(r'csvs/{}.csv'.format(str(ano)), mode='a', header=True)
-            else:
-                df.to_csv(r'csvs/{}.csv'.format(str(ano)), mode='a', header=False)
+                        df = pd.concat([df.reset_index(drop=True), foo], axis=1)
+
+                    if municipio == 1:
+                        df.to_csv(r'csvs/{}.csv'.format(str(ano)), mode='a', header=True)
+                    else:
+                        df.to_csv(r'csvs/{}.csv'.format(str(ano)), mode='a', header=False)
+                    break
+                except Exception as e:
+                    tentativas -= 1
+                    print("Erro em municipio: {}; e ano: {}; tentando mais {} vezes".format(municipio, ano, tentativas))
+                    print(e)
